@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modern_enum", "modern_enum.vcxproj", "{FE442E2E-0BCE-4EBB-8432-64A404674017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE442E2E-0BCE-4EBB-8432-64A404674017}.Debug|x64.ActiveCfg = Debug|x64
+		{FE442E2E-0BCE-4EBB-8432-64A404674017}.Debug|x64.Build.0 = Debug|x64
+		{FE442E2E-0BCE-4EBB-8432-64A404674017}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE442E2E-0BCE-4EBB-8432-64A404674017}.Debug|x86.Build.0 = Debug|Win32
+		{FE442E2E-0BCE-4EBB-8432-64A404674017}.Release|x64.ActiveCfg = Release|x64
+		{FE442E2E-0BCE-4EBB-8432-64A404674017}.Release|x64.Build.0 = Release|x64
+		{FE442E2E-0BCE-4EBB-8432-64A404674017}.Release|x86.ActiveCfg = Release|Win32
+		{FE442E2E-0BCE-4EBB-8432-64A404674017}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CACBCC05-3E9A-40EF-ADFF-354E5EB219CF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+
+	<Type Name="internal::modern_enum::NatvisIndex&lt;*&gt;">
+		<DisplayString>{$T1::s_name,sb}::{$T1::s_names[idx],sb}</DisplayString>
+	</Type>
+
+	<Type Name="internal::modern_enum::NatvisBitSet&lt;*&gt;">
+		<DisplayString>{$T1::s_name, sb}</DisplayString>
+		<Expand>
+			<CustomListItems>
+				<Variable Name="i" InitialValue="0" />
+				<Size>$T1::s_count</Size>
+				<Loop>
+					<Break Condition="i == $T1::s_count" />
+					<Item Name="{$T1::s_names[i], sb}">(uint64_t)((set.m_bits[i/64]&amp;(1ull&lt;&lt;(i%64)))!=0)</Item>
+					<Exec>i++</Exec>
+				</Loop>
+			</CustomListItems>
+		</Expand>
+	</Type>
+
+</AutoVisualizer>  
